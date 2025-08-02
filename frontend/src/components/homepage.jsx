@@ -5,7 +5,7 @@ export default function Homepage() {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch(`${BASE_URL}/api/services`) // Replace with your backend API endpoint
+    fetch(`${BASE_URL}/api/services`)
       .then((res) => res.json())
       .then((data) => setServices(data))
       .catch((err) => console.error('Error fetching services:', err));
