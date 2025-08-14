@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "subtitle": "You can also start",
+    "title": {
+      "line1": "Hometown",
+      "line2": "",
+      "highlight": "BUSINESS"
+    },
+    "tagline": "With minimal investment",
+    "description": {
+      "line1": "Become a part of E-Mithram Service Center",
+      "line2": "right now",
+      "details": "Earn a respectable income by providing non-governmental services to the public with all necessary licenses"
+    },
+    "exploreButton": "Explore More"
+  }
+
+}
