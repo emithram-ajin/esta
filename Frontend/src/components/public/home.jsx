@@ -7,7 +7,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import Whyemitram from "./whyemitram";
 import Servicesection from "./Servicesection";
 import { useTranslation } from "react-i18next";
-import Languageselecor from "./language-selector";
+import Languageselecor from "./languageselector";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
