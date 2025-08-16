@@ -15,7 +15,7 @@ export default function Whyemitram() {
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/api/videos?page=Why-mithram")
+    fetch(`${API_URL}/api/videos?page=Why-mithram`)
       .then(res => res.json())
       .then(data => {
         console.log("Fetched Videos:", data);

@@ -12,7 +12,7 @@ const Formpage = () => {
 
   
     useEffect(() => {
-      fetch("http://localhost:4000/api/uploads?page=Formimage")
+      fetch(`${API_URL}/api/uploads?page=Formimage`)
         .then((res) => res.json())
         .then((data) => {
           console.log("Fetched:", data);
