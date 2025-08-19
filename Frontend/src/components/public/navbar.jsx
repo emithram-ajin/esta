@@ -134,7 +134,7 @@ export default function Navbar() {
                     e.target.src = "/Asset 33@2x.webp";
                   }}
                   alt="Support Icon"
-                  className="w-7 h-7 sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-7 lg:h-7 object-contain flex-shrink-0"
+                  className="w-4 h-4 sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-7 lg:h-7 object-contain flex-shrink-0"
                 />
                 <span className="text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-medium whitespace-nowrap">
                   <span className="hidden xs:inline sm:inline">+91 9539270777</span>

@@ -148,7 +148,7 @@ export default function Whyemitram() {
                     <video
                       key={index}
                       src={`data:${vid.video.contentType};base64,${vid.video.data}`}
-                      className="w-530px h-full object-cover"
+                      className="w-full h-full object-cover"
                       autoPlay
                       loop
                       muted

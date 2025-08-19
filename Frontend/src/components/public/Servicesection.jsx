@@ -199,7 +199,7 @@ function Servicesection() {
         {/* Desktop */}
         <div className="hidden lg:block">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-4 gap-8">
+            <div className="grid grid-cols-5 gap-8">
               {Array.isArray(images.iconsection2) &&
                 images.iconsection2.map((item, index) => (
                   <div
